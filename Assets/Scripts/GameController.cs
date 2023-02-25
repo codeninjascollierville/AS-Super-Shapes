@@ -19,10 +19,29 @@ public class GameController : MonoBehaviour
     {
         InvokeRepeating("Spawn", spawnDelay, spawnTime);
     }
-
+    void Spawn()
+    {
+        int randomInt = Random.Range(0, shapePrefabs.Length);
+        Instantiate(shapePrefabs[randomInt], Vector3.zero, Quaternion.identity);
+    }
+   
+   public void GameOver()
+   {
+    CancelInvoke("Spawn");
+   }
     // Update is called once per frame
     void Update()
     {
 
     }
+          
+          [Header("Game Over UI Object")]
+          public GameObject gameOverCanvas;
+
+
+          gameOverCanvas.SetActive(true);
+               
+        Time.timeScale = 0;
+
 }
+
