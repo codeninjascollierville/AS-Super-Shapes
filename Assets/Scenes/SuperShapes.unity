@@ -209,7 +209,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 921af07bfe8a92b4a954baa8305f56f4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -733,8 +733,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shapePrefabs:
   - {fileID: 2876814049339442106, guid: d147164ba903349459e2b69461634b0a, type: 3}
+  - {fileID: 2876814049339442106, guid: d147164ba903349459e2b69461634b0a, type: 3}
+  - {fileID: 3600819354773241567, guid: b9974bbe1181ab348968ea07c769aa47, type: 3}
   - {fileID: 3600819354773241567, guid: b9974bbe1181ab348968ea07c769aa47, type: 3}
   - {fileID: 3417114003247287460, guid: e9a3ccafa5cb3c243b896ab583de24d7, type: 3}
+  - {fileID: 3417114003247287460, guid: e9a3ccafa5cb3c243b896ab583de24d7, type: 3}
+  - {fileID: 5608908145742263239, guid: a7a20bb749b744044bb235ea1e406d4b, type: 3}
   - {fileID: 5608908145742263239, guid: a7a20bb749b744044bb235ea1e406d4b, type: 3}
   spawnDelay: 2
   spawnTime: 3
@@ -746,13 +750,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984471062}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.02706526, y: 0.034190767, z: 0.025238765, w: 0.99872994}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 3, y: 4, z: 3}
 --- !u!1 &1014516540
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,11 +21,11 @@ public float shrinkSpeed = 3f;
     void Update()
     {
       transform.localScale -= Vector3.one * shrinkSpeed * Time.deltaTime;
-      if (transform.localScale.x <= .05f);
-      
+      if (transform.localScale.x <= .05f)
+      {
       Score.score++;
 
-      {
+      
   
         // Destroy object
         Destroy(gameObject);

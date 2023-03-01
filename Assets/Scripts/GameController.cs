@@ -27,7 +27,13 @@ public class GameController : MonoBehaviour
    
    public void GameOver()
    {
+   
     CancelInvoke("Spawn");
+   
+   Time.timeScale = 0;
+   
+   gameOverCanvas.SetActive(true);
+
    }
     // Update is called once per frame
     void Update()
@@ -39,9 +45,10 @@ public class GameController : MonoBehaviour
           public GameObject gameOverCanvas;
 
 
-          gameOverCanvas.SetActive(true);
-               
-        Time.timeScale = 0;
+          //gameOverCanvas.SetActive(true);
+            
+         //Time.timeScale = 0;
+          
 
 }
 
